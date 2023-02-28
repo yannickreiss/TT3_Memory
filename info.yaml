@@ -20,7 +20,7 @@ yaml_version: 3.0
 documentation: 
   author:       "Yannick Reiß"      # Your name
   title:        "4x4 bit Memory"      # Project title
-  language:     ""      # other examples include Verilog, Amaranth, VHDL, etc
+  language:     "Verilog"      # other examples include Verilog, Amaranth, VHDL, etc
   description:  "store 4x4 bits of memory"      # Short description of what your project does
 
 # Longer description of how the project works. You can use standard markdown format.
