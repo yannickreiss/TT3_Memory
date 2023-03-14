@@ -19,17 +19,17 @@ yaml_version: 3.0
 # Here is a great example: https://github.com/davidsiaw/tt02-davidsiaw-stackcalc/blob/38c5647f83aad2aec675d566aa3d67b98f0aac81/info.yaml
 documentation: 
   author:       "Yannick Reiß"      # Your name
-  title:        "4x4 bit Memory"      # Project title
+  title:        "4x4 Memory"      # Project title
   language:     "Wokwi"      # other examples include Verilog, Amaranth, VHDL, etc
-  description:  "store 4x4 bits of memory"      # Short description of what your project does
+  description:  "Store 4x4 bits of memory."      # Short description of what your project does
 
 # Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
-      On write enable, the four data-inputs are saved to the d-flipflops selected by the address inputs. 
+      On write enable, the four data-inputs are saved to the d-flipflops selected by the address inputs. The output is always read from the current selected flipflops.
 
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   how_to_test:  |
-      just select an address and try writing some binary numbers
+      Connect a clock, buttons for reset and write_enable and switches for address and data like shown below. The output can be read by using 4 LEDs or any other kind of binary output device.
 
 # A description of what the inputs do
   inputs:               
