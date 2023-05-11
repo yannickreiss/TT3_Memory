@@ -29,13 +29,12 @@ documentation:
 
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   how_to_test:  |
-      Connect a clock, buttons for reset and write_enable and switches for address and data like shown below. The output can be read by using 4 LEDs or any other kind of binary output device.
+      Connect a clock, buttons for reset and switches for address and data like shown below. The output can be read by using 4 LEDs or any other kind of binary output device.
 
 # A description of what the inputs do
   inputs:               
     - clock
     - reset
-    - write_enable
     - addr1
     - addr2
     - data1
